@@ -1,0 +1,8 @@
+
+<% for( let index = 0; index < posts.length; index++ ) { %>
+    <div>
+        <hr>
+        <h1> <%= posts[index].title %>  </h1>
+        <p> <%= posts[index].body %>  </p>
+    </div>
+<% } %>
